@@ -1,0 +1,22 @@
+{
+  "name": "smarthomeresourcehandlerlambda",
+  "version": "1.0.0",
+  "description": "Smart home resource handler lambda that will store logs in the ELK, used for course work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veglad/smartHomeResourceHandlerLamda.git"
+  },
+  "author": "Vladyslav Shchehlov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Veglad/smartHomeResourceHandlerLamda/issues"
+  },
+  "homepage": "https://github.com/Veglad/smartHomeResourceHandlerLamda#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0"
+  }
+}
